@@ -2,10 +2,10 @@ package DiceGame;
 
 import java.util.Random;
 
-public class Dice {
+public class Dado {
     public final int CARAS = 6;
 
-    private Dice(){
+    public Dado(){
     }
 
     public int Tirar(Random random, int lados){
